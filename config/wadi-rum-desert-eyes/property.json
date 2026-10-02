@@ -1,0 +1,208 @@
+{
+  "slug": "wadi-rum-desert-eyes",
+  "kind": "experience",
+  "realBrand": true,
+  "bookingMode": "request",
+  "brand": {
+    "name": "Wadi Rum Desert Eyes",
+    "tagline": {
+      "en": "Private desert tours and nights in the desert, Wadi Rum Protected Area, Jordan"
+    },
+    "primary": "#6B1C0F",
+    "accent": "#DE8245",
+    "neutral": "#7E685D",
+    "fontPairing": "modern"
+  },
+  "currency": "JOD",
+  "languages": ["en"],
+  "depositPercent": 0,
+  "strings": {
+    "en": {
+      "dates.guestsLabel": "People",
+      "dates.guest": "person",
+      "dates.guests": "people",
+      "summary.guests": "People",
+      "units.titleExperience": "Choose your tour",
+      "units.capacityUpTo": "Private tour, 2 to {count} people",
+      "units.minGuests": "Priced for {count} people or more, solo travellers ask Khaled",
+      "guest.messageRequestHint": "Tell Khaled your preferred start time, where you are staying, and the ages of any children so he can apply the child rates.",
+      "summary.estimateNote": "Worked out from the published price list. Nothing is charged now. Khaled confirms every booking himself.",
+      "confirm.requestBody": "Nothing is booked or charged yet. Khaled will check the date and reply to you by email to confirm.",
+      "policy.title": "Good to know before you send"
+    }
+  },
+  "policy": {
+    "en": "Sending this request books nothing and charges nothing. Khaled confirms every booking himself by email. All tours are private, with a local Bedouin guide, and meet at Wadi Rum Rest House in Wadi Rum Village. Prices are per adult in Jordanian dinars, as published on wadirumdeserteyes.com. The Wadi Rum entrance fee is paid separately at the Visitor Centre. Child rates are listed on each tour page; tell us the children's ages in your message. Solo travellers and groups of more than 6: ask for a rate. Cancellation terms: not yet written. This line is an example placeholder for the demo."
+  },
+  "confirmationExtras": {
+    "meetingPoint": {
+      "en": "Wadi Rum Rest House, Wadi Rum Village"
+    }
+  },
+  "images": {
+    "hero": "images/hero.jpg",
+    "gallery": ["images/desert-camp.jpg", "images/under-the-stars.jpg"]
+  },
+  "blockedDates": [],
+  "units": [
+    {
+      "id": "full-day",
+      "name": { "en": "Full Day Desert Tour" },
+      "description": {
+        "en": "A full day by 4x4 through the classic sites: Lawrence Spring, the Red Sand Dune, Khazali Canyon, the Small Arch, Lawrence House, Mushroom Rock, Abu Khashaba Canyon and Um Fruth Rock Bridge, with lunch cooked in the shade and Bedouin tea at sunset over Um Sabatah. Starts at 9:30, 10:00, 10:30 or 11:00 from Wadi Rum Rest House."
+      },
+      "image": "images/full-day.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 50,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 50 },
+        { "minGuests": 3, "maxGuests": 4, "price": 40 },
+        { "minGuests": 5, "maxGuests": 6, "price": 35 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    },
+    {
+      "id": "bedouin-steps",
+      "name": { "en": "Bedouin Steps Tour" },
+      "description": {
+        "en": "A full day south through the white desert and the quiet southern valleys: Ain Qattar spring, the Desert Eye, Mushroom Rock, Um Mughar Canyon and sunset from the Thathaa Viewpoint or Wadi Nuqra. Lunch and Bedouin tea included. Starts at 9:30, 10:00 or 10:30."
+      },
+      "image": "images/bedouin-steps.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 60,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 60 },
+        { "minGuests": 3, "maxGuests": 4, "price": 50 },
+        { "minGuests": 5, "maxGuests": 6, "price": 40 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    },
+    {
+      "id": "sunset-excursion",
+      "name": { "en": "Sunset Excursion, 3 hours" },
+      "description": {
+        "en": "Three hours by 4x4 to a remote sunset spot, stopping at Lawrence Spring, the Red Sand Dune, Khazali Canyon, the Small Arch and Um Fruth Rock Bridge, with Bedouin tea and a snack as the sun sets over Um Sabatah. Afternoon start; the exact time depends on the season and comes with your confirmation."
+      },
+      "image": "images/sunset.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 35,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 35 },
+        { "minGuests": 3, "maxGuests": 4, "price": 30 },
+        { "minGuests": 5, "maxGuests": 6, "price": 25 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    },
+    {
+      "id": "four-hour",
+      "name": { "en": "4 Hour Desert Tour" },
+      "description": {
+        "en": "Four hours through the red valleys: Lawrence Spring, the Red Sand Dune, Khazali Canyon, the Small Arch, Abu Khashaba Canyon and Um Fruth Rock Bridge, with time to walk and climb at each stop. Starts at 9:30, 10:00, 10:30 or as a sunset departure."
+      },
+      "image": "images/four-hour.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 40,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 40 },
+        { "minGuests": 3, "maxGuests": 4, "price": 35 },
+        { "minGuests": 5, "maxGuests": 6, "price": 30 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    },
+    {
+      "id": "three-hour",
+      "name": { "en": "3 Hour Desert Tour" },
+      "description": {
+        "en": "Three hours off road through the main valley, stopping at the landmarks and viewpoints with time to explore on foot and climb to the vantage points. Starts at 9:30, 10:00 or 10:30."
+      },
+      "image": "images/three-hour.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 35,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 35 },
+        { "minGuests": 3, "maxGuests": 4, "price": 30 },
+        { "minGuests": 5, "maxGuests": 6, "price": 25 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    },
+    {
+      "id": "two-hour",
+      "name": { "en": "2 Hour Desert Tour" },
+      "description": {
+        "en": "Two hours through the main valley, its landmarks and viewpoints, with Bedouin tea along the way. Made for a short visit to Wadi Rum or for families with young children. Starts at 9:30, 10:00, 10:30 or as a sunset departure."
+      },
+      "image": "images/two-hour.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 30,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 30 },
+        { "minGuests": 3, "maxGuests": 4, "price": 25 },
+        { "minGuests": 5, "maxGuests": 6, "price": 20 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    },
+    {
+      "id": "sunrise-summit",
+      "name": { "en": "Sunrise Summit Tour, 2 days and 1 night" },
+      "description": {
+        "en": "Day one heads south into the white desert, Um Ghatha Canyon and Wadi Nuqra, with a wild camp near Jebel Um Ad Dami. Day two starts before dawn with the hike to the summit of Jordan's highest mountain for sunrise, then Wadi Sabit and the spring at Jebel Qattar, back at the Rest House by 4 PM. Meals, sleeping equipment and the night of wild camping are included. Starts at 9:30, 10:00 or 10:30. Add a night below for an extra night at the start or end."
+      },
+      "image": "images/sunrise-summit.jpg",
+      "capacity": 6,
+      "minGuests": 2,
+      "basePrice": 185,
+      "priceUnit": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 185 },
+        { "minGuests": 3, "maxGuests": 4, "price": 160 },
+        { "minGuests": 5, "maxGuests": 6, "price": 140 }
+      ],
+      "options": ["camel-ride", "desert-camp", "under-the-stars"]
+    }
+  ],
+  "options": [
+    {
+      "id": "camel-ride",
+      "label": { "en": "1 hour camel ride" },
+      "description": {
+        "en": "From Ain Abu Aineh to the Red Sand Dune at the start of your tour."
+      },
+      "price": 20,
+      "rule": "perPerson"
+    },
+    {
+      "id": "desert-camp",
+      "label": { "en": "Night in the Desert Camp" },
+      "description": {
+        "en": "After the tour, a drive to the camp: a private Bedouin tent with a double or twin bed, zarb dinner and breakfast, and the transfer back to Wadi Rum Rest House in the morning."
+      },
+      "price": 25,
+      "rule": "perPerson"
+    },
+    {
+      "id": "under-the-stars",
+      "label": { "en": "Night Under the Stars" },
+      "description": {
+        "en": "After the tour, a drive to a wild campsite among the dunes: dinner around the fire, a bed under the stars with mattress, pillow, blanket and sleeping bag, and breakfast at sunrise."
+      },
+      "price": 30,
+      "rule": "perPerson",
+      "groupPrices": [
+        { "minGuests": 2, "maxGuests": 2, "price": 30 },
+        { "minGuests": 3, "maxGuests": 6, "price": 25 }
+      ]
+    }
+  ]
+}

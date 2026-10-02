@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa Exemplo, a plain host site with Likwiid Direct embedded</title>
+    <style>
+      /* Deliberately ordinary styling, to prove the widget survives and
+         outclasses any host page it is dropped into. */
+      body { font-family: Georgia, serif; margin: 0; background: #f4f1ea; color: #333; }
+      header { background: #5a3e2b; color: #fff; padding: 24px 16px; text-align: center; }
+      main { max-width: 960px; margin: 0 auto; padding: 32px 16px; }
+      p { line-height: 1.6; }
+      footer { text-align: center; padding: 24px; font-size: 14px; color: #777; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Casa Exemplo</h1>
+      <p>A fictional guesthouse website, built years ago, like the ones our prospects have.</p>
+    </header>
+    <main>
+      <p>
+        This page simulates an owner's existing site. The booking engine below was added
+        with one script tag and one div, nothing else on the page changed.
+      </p>
+      <div id="likwiid-direct"></div>
+      <p>Everything above this line and below the widget is untouched host content.</p>
+    </main>
+    <footer>Host page for the Likwiid Direct embed demonstration.</footer>
+    <script src="./loader.js" data-slug="quinta-likwiid" defer></script>
+  </body>
+</html>
